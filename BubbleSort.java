@@ -1,7 +1,6 @@
 package ma.sorting;
 
 public class BubbleSort {
-
     public static void sort(int[] arrayToSort) {
         int n = arrayToSort.length;
         int counter = 0;
@@ -17,7 +16,6 @@ public class BubbleSort {
             counter++;
         }
     }
-
     private static void swap(int[] array, int index1, int index2) {
         int temp = array[index1];
         array[index1] = array[index2];
